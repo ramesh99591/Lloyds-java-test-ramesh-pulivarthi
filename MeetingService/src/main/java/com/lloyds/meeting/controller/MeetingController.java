@@ -24,11 +24,12 @@ public class MeetingController {
 	 * @return
 	 */
 	@PostMapping(path="/bookMeeting",produces= {MediaType.APPLICATION_JSON_VALUE})
-	public MeetingsScheduleDetails bookMeetingDetails(String inputData) {
-		return meetingService.bookMeetingDetails(inputData);
+	public MeetingsScheduleDetails bookMeetingDetails(String inputDataText) {
+		return meetingService.bookMeetingDetails(inputDataText);
 				
 	}
 	
+
 	
 
 		
