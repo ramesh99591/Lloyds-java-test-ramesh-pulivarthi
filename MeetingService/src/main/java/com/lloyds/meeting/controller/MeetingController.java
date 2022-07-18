@@ -12,7 +12,7 @@ import com.lloyds.meeting.service.MeetingService;
 
 @RestController
 @RequestMapping("/meetings/v1")
-public class MeetingController {
+public class MeetingController { 
 	
 	@Autowired
 	MeetingService meetingService;
